@@ -1,0 +1,66 @@
+html, body {
+    margin: 10;
+    padding: 10;
+    background: #5B618A;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    margin-top: 10%;
+}
+
+h2 {
+    font-weight: 400;
+}
+
+h3 {
+    font-weight: 300;
+}
+
+button {
+    background: #B9E28C;
+    color: #5B618A;
+    padding: 10px 20px;
+    font-weight: 900;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover{
+    padding: 15px 30px;
+}
+
+.game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    height: 200px;
+    border: solid 2px white;
+    border-radius: 0.3rem;
+}
+
+.square {
+    width: 20px;
+    height: 20px;
+    border-radius: 0.3rem;
+}
+
+.apple {
+    background-color: #B9E28C;
+}
+
+.snake {
+    background-color: #D6D84F;
+}
+
+#score {
+    font-weight: 900;
+    font-size: 2rem;
+}
